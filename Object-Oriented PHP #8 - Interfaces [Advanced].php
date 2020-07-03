@@ -7,22 +7,17 @@ interface  CanFly
 
 interface  CanSwim
 {
-
     public function swim();
 }
 
-
 interface  CanClimb
 {
-
     public function climb();
 }
 
 interface  CanGreet
 {
-
     public function greet($name);
-
 }
 
 
@@ -31,7 +26,6 @@ interface  CanIntroduce
     public function speak();
 
     public function introduce();
-
 }
 
 interface  CanSpeak
@@ -73,7 +67,6 @@ class Duck extends Bird implements CanSwim
     }
 }
 
-
 class Dog implements CanGreet, CanSwim
 {
     public function swim()
@@ -109,6 +102,7 @@ class Cat implements CanClimb
         return "Hey $name, let's play!";
     }
 }
+
 class Person implements CanGreet, CanIntroduce
 {
     public $name;

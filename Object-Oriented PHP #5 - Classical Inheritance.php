@@ -1,3 +1,4 @@
+<?php
 
 class Salesman extends Person
 {

@@ -1,3 +1,5 @@
+<?php
+
 class Person
 {
     public const species = 'Homo Sapiens';
