@@ -1,0 +1,15 @@
+{
+  "version": "0.1",
+
+  "require": {
+    "php": "^7.3",
+    "ext-json": "*",
+    "doctrine/orm": "*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "": "./src"
+    }
+  }
+}

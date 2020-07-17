@@ -1,0 +1,143 @@
+[17-Jul-2020 02:24:16 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Class 'src\Services\ItemService' not found in C:\wh\katas\kata\doctrine\index.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wh\katas\kata\doctrine\index.php on line 8
+[17-Jul-2020 02:24:21 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Class 'src\Services\ItemService' not found in C:\wh\katas\kata\doctrine\index.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wh\katas\kata\doctrine\index.php on line 8
+[17-Jul-2020 02:26:53 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Class 'src\Services\ItemService' not found in C:\wh\katas\kata\doctrine\index.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wh\katas\kata\doctrine\index.php on line 8
+[17-Jul-2020 02:26:56 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Class 'src\Services\ItemService' not found in C:\wh\katas\kata\doctrine\index.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wh\katas\kata\doctrine\index.php on line 8
+[17-Jul-2020 02:26:57 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Class 'src\Services\ItemService' not found in C:\wh\katas\kata\doctrine\index.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wh\katas\kata\doctrine\index.php on line 8
+[17-Jul-2020 02:26:57 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Class 'src\Services\ItemService' not found in C:\wh\katas\kata\doctrine\index.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wh\katas\kata\doctrine\index.php on line 8
+[17-Jul-2020 02:26:58 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Class 'src\Services\ItemService' not found in C:\wh\katas\kata\doctrine\index.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wh\katas\kata\doctrine\index.php on line 8
+[17-Jul-2020 02:26:59 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Class 'src\Services\ItemService' not found in C:\wh\katas\kata\doctrine\index.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wh\katas\kata\doctrine\index.php on line 8
+[17-Jul-2020 02:27:00 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Class 'src\Services\ItemService' not found in C:\wh\katas\kata\doctrine\index.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wh\katas\kata\doctrine\index.php on line 8
+[17-Jul-2020 02:27:37 America/Los_Angeles] PHP Fatal error:  Uncaught Doctrine\ORM\Mapping\MappingException: Class "src\Entity\Item" is not a valid entity or mapped super class. in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php:346
+Stack trace:
+#0 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\Driver\AnnotationDriver.php(94): Doctrine\ORM\Mapping\MappingException::classIsNotAValidEntityOrMappedSuperClass('src\\Entity\\Item')
+#1 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php(154): Doctrine\ORM\Mapping\Driver\AnnotationDriver->loadMetadataForClass('src\\Entity\\Item', Object(Doctrine\ORM\Mapping\ClassMetadata))
+#2 C:\wh\katas\kata\doctrine\vendor\doctrine\persistence\lib\Doctrine\Persistence\Mapping\AbstractClassMetadataFactory.php(304): Doctrine\ORM\Mapping\ClassMetadataFactory->doLoadMetadata(Object(Doctrine\ORM\Mapping\ClassMetadata), NULL, false, Array)
+#3 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php( in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php on line 346
+[17-Jul-2020 02:28:42 America/Los_Angeles] PHP Fatal error:  Uncaught Doctrine\ORM\Mapping\MappingException: Class "src\Entity\Item" is not a valid entity or mapped super class. in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php:346
+Stack trace:
+#0 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\Driver\AnnotationDriver.php(94): Doctrine\ORM\Mapping\MappingException::classIsNotAValidEntityOrMappedSuperClass('src\\Entity\\Item')
+#1 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php(154): Doctrine\ORM\Mapping\Driver\AnnotationDriver->loadMetadataForClass('src\\Entity\\Item', Object(Doctrine\ORM\Mapping\ClassMetadata))
+#2 C:\wh\katas\kata\doctrine\vendor\doctrine\persistence\lib\Doctrine\Persistence\Mapping\AbstractClassMetadataFactory.php(304): Doctrine\ORM\Mapping\ClassMetadataFactory->doLoadMetadata(Object(Doctrine\ORM\Mapping\ClassMetadata), NULL, false, Array)
+#3 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php( in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php on line 346
+[17-Jul-2020 02:29:45 America/Los_Angeles] PHP Fatal error:  Uncaught Doctrine\ORM\Mapping\MappingException: Class "src\Entity\Item" is not a valid entity or mapped super class. in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php:346
+Stack trace:
+#0 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\Driver\AnnotationDriver.php(94): Doctrine\ORM\Mapping\MappingException::classIsNotAValidEntityOrMappedSuperClass('src\\Entity\\Item')
+#1 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php(154): Doctrine\ORM\Mapping\Driver\AnnotationDriver->loadMetadataForClass('src\\Entity\\Item', Object(Doctrine\ORM\Mapping\ClassMetadata))
+#2 C:\wh\katas\kata\doctrine\vendor\doctrine\persistence\lib\Doctrine\Persistence\Mapping\AbstractClassMetadataFactory.php(304): Doctrine\ORM\Mapping\ClassMetadataFactory->doLoadMetadata(Object(Doctrine\ORM\Mapping\ClassMetadata), NULL, false, Array)
+#3 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php( in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php on line 346
+[17-Jul-2020 02:33:25 America/Los_Angeles] PHP Fatal error:  Uncaught Doctrine\ORM\Mapping\MappingException: Class "src\Entity\Item" is not a valid entity or mapped super class. in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php:346
+Stack trace:
+#0 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\Driver\AnnotationDriver.php(94): Doctrine\ORM\Mapping\MappingException::classIsNotAValidEntityOrMappedSuperClass('src\\Entity\\Item')
+#1 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php(154): Doctrine\ORM\Mapping\Driver\AnnotationDriver->loadMetadataForClass('src\\Entity\\Item', Object(Doctrine\ORM\Mapping\ClassMetadata))
+#2 C:\wh\katas\kata\doctrine\vendor\doctrine\persistence\lib\Doctrine\Persistence\Mapping\AbstractClassMetadataFactory.php(304): Doctrine\ORM\Mapping\ClassMetadataFactory->doLoadMetadata(Object(Doctrine\ORM\Mapping\ClassMetadata), NULL, false, Array)
+#3 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php( in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php on line 346
+[17-Jul-2020 02:55:03 America/Los_Angeles] PHP Warning:  require_once(../bootstrap.php): failed to open stream: No such file or directory in C:\wh\katas\kata\doctrine\config\cli-config.php on line 3
+[17-Jul-2020 02:55:03 America/Los_Angeles] PHP Stack trace:
+[17-Jul-2020 02:55:03 America/Los_Angeles] PHP   1. {main}() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:0
+[17-Jul-2020 02:55:03 America/Los_Angeles] PHP   2. include() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:4
+[17-Jul-2020 02:55:03 America/Los_Angeles] PHP   3. require() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine.php:58
+[17-Jul-2020 02:55:03 America/Los_Angeles] PHP Fatal error:  require_once(): Failed opening required '../bootstrap.php' (include_path='.;C:\php\pear') in C:\wh\katas\kata\doctrine\config\cli-config.php on line 3
+[17-Jul-2020 02:55:03 America/Los_Angeles] PHP Stack trace:
+[17-Jul-2020 02:55:03 America/Los_Angeles] PHP   1. {main}() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:0
+[17-Jul-2020 02:55:03 America/Los_Angeles] PHP   2. include() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:4
+[17-Jul-2020 02:55:03 America/Los_Angeles] PHP   3. require() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine.php:58
+[17-Jul-2020 03:12:02 America/Los_Angeles] PHP Warning:  require_once(../bootstrap.php): failed to open stream: No such file or directory in C:\wh\katas\kata\doctrine\config\cli-config.php on line 3
+[17-Jul-2020 03:12:02 America/Los_Angeles] PHP Stack trace:
+[17-Jul-2020 03:12:02 America/Los_Angeles] PHP   1. {main}() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:0
+[17-Jul-2020 03:12:02 America/Los_Angeles] PHP   2. include() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:4
+[17-Jul-2020 03:12:02 America/Los_Angeles] PHP   3. require() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine.php:58
+[17-Jul-2020 03:12:02 America/Los_Angeles] PHP Fatal error:  require_once(): Failed opening required '../bootstrap.php' (include_path='.;C:\php\pear') in C:\wh\katas\kata\doctrine\config\cli-config.php on line 3
+[17-Jul-2020 03:12:02 America/Los_Angeles] PHP Stack trace:
+[17-Jul-2020 03:12:02 America/Los_Angeles] PHP   1. {main}() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:0
+[17-Jul-2020 03:12:02 America/Los_Angeles] PHP   2. include() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:4
+[17-Jul-2020 03:12:02 America/Los_Angeles] PHP   3. require() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine.php:58
+[17-Jul-2020 03:14:17 America/Los_Angeles] PHP Warning:  require_once(../vendor/autoload.php): failed to open stream: No such file or directory in C:\wh\katas\kata\doctrine\config\bootstrap.php on line 3
+[17-Jul-2020 03:14:17 America/Los_Angeles] PHP Stack trace:
+[17-Jul-2020 03:14:17 America/Los_Angeles] PHP   1. {main}() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:0
+[17-Jul-2020 03:14:17 America/Los_Angeles] PHP   2. include() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:4
+[17-Jul-2020 03:14:17 America/Los_Angeles] PHP   3. require() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine.php:58
+[17-Jul-2020 03:14:17 America/Los_Angeles] PHP   4. require_once() C:\wh\katas\kata\doctrine\config\cli-config.php:3
+[17-Jul-2020 03:14:17 America/Los_Angeles] PHP Fatal error:  require_once(): Failed opening required '../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\wh\katas\kata\doctrine\config\bootstrap.php on line 3
+[17-Jul-2020 03:14:17 America/Los_Angeles] PHP Stack trace:
+[17-Jul-2020 03:14:17 America/Los_Angeles] PHP   1. {main}() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:0
+[17-Jul-2020 03:14:17 America/Los_Angeles] PHP   2. include() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:4
+[17-Jul-2020 03:14:17 America/Los_Angeles] PHP   3. require() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine.php:58
+[17-Jul-2020 03:14:17 America/Los_Angeles] PHP   4. require_once() C:\wh\katas\kata\doctrine\config\cli-config.php:3
+[17-Jul-2020 03:16:11 America/Los_Angeles] PHP Warning:  require_once(../bootstrap.php): failed to open stream: No such file or directory in C:\wh\katas\kata\doctrine\config\cli-config.php on line 3
+[17-Jul-2020 03:16:11 America/Los_Angeles] PHP Stack trace:
+[17-Jul-2020 03:16:11 America/Los_Angeles] PHP   1. {main}() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:0
+[17-Jul-2020 03:16:11 America/Los_Angeles] PHP   2. include() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:4
+[17-Jul-2020 03:16:11 America/Los_Angeles] PHP   3. require() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine.php:58
+[17-Jul-2020 03:16:11 America/Los_Angeles] PHP Fatal error:  require_once(): Failed opening required '../bootstrap.php' (include_path='.;C:\php\pear') in C:\wh\katas\kata\doctrine\config\cli-config.php on line 3
+[17-Jul-2020 03:16:11 America/Los_Angeles] PHP Stack trace:
+[17-Jul-2020 03:16:11 America/Los_Angeles] PHP   1. {main}() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:0
+[17-Jul-2020 03:16:11 America/Los_Angeles] PHP   2. include() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine:4
+[17-Jul-2020 03:16:11 America/Los_Angeles] PHP   3. require() C:\wh\katas\kata\doctrine\vendor\doctrine\orm\bin\doctrine.php:58
+[17-Jul-2020 03:16:57 America/Los_Angeles] PHP Fatal error:  Uncaught Doctrine\ORM\Mapping\MappingException: Class "src\Entity\Item" is not a valid entity or mapped super class. in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php:346
+Stack trace:
+#0 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\Driver\AnnotationDriver.php(94): Doctrine\ORM\Mapping\MappingException::classIsNotAValidEntityOrMappedSuperClass('src\\Entity\\Item')
+#1 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php(154): Doctrine\ORM\Mapping\Driver\AnnotationDriver->loadMetadataForClass('src\\Entity\\Item', Object(Doctrine\ORM\Mapping\ClassMetadata))
+#2 C:\wh\katas\kata\doctrine\vendor\doctrine\persistence\lib\Doctrine\Persistence\Mapping\AbstractClassMetadataFactory.php(304): Doctrine\ORM\Mapping\ClassMetadataFactory->doLoadMetadata(Object(Doctrine\ORM\Mapping\ClassMetadata), NULL, false, Array)
+#3 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php( in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php on line 346
+[17-Jul-2020 03:31:33 America/Los_Angeles] PHP Fatal error:  Uncaught Doctrine\ORM\Mapping\MappingException: Class "src\Entity\Item" is not a valid entity or mapped super class. in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php:346
+Stack trace:
+#0 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\Driver\AnnotationDriver.php(94): Doctrine\ORM\Mapping\MappingException::classIsNotAValidEntityOrMappedSuperClass('src\\Entity\\Item')
+#1 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php(154): Doctrine\ORM\Mapping\Driver\AnnotationDriver->loadMetadataForClass('src\\Entity\\Item', Object(Doctrine\ORM\Mapping\ClassMetadata))
+#2 C:\wh\katas\kata\doctrine\vendor\doctrine\persistence\lib\Doctrine\Persistence\Mapping\AbstractClassMetadataFactory.php(304): Doctrine\ORM\Mapping\ClassMetadataFactory->doLoadMetadata(Object(Doctrine\ORM\Mapping\ClassMetadata), NULL, false, Array)
+#3 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php( in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php on line 346
+[17-Jul-2020 03:37:22 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Class 'src\Services\ItemService' not found in C:\wh\katas\kata\doctrine\index.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\wh\katas\kata\doctrine\index.php on line 8
+[17-Jul-2020 03:39:46 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'EntityManager' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in C:\wh\katas\kata\doctrine\src\Services\ItemService.php on line 10
+[17-Jul-2020 03:41:26 America/Los_Angeles] PHP Fatal error:  Uncaught Doctrine\ORM\Mapping\MappingException: Class "src\Entity\Item" is not a valid entity or mapped super class. in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php:346
+Stack trace:
+#0 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\Driver\AnnotationDriver.php(94): Doctrine\ORM\Mapping\MappingException::classIsNotAValidEntityOrMappedSuperClass('src\\Entity\\Item')
+#1 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php(154): Doctrine\ORM\Mapping\Driver\AnnotationDriver->loadMetadataForClass('src\\Entity\\Item', Object(Doctrine\ORM\Mapping\ClassMetadata))
+#2 C:\wh\katas\kata\doctrine\vendor\doctrine\persistence\lib\Doctrine\Persistence\Mapping\AbstractClassMetadataFactory.php(304): Doctrine\ORM\Mapping\ClassMetadataFactory->doLoadMetadata(Object(Doctrine\ORM\Mapping\ClassMetadata), NULL, false, Array)
+#3 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php( in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php on line 346
+[17-Jul-2020 03:42:28 America/Los_Angeles] PHP Fatal error:  Uncaught Doctrine\ORM\Mapping\MappingException: Class "src\Entity\Item" is not a valid entity or mapped super class. in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php:346
+Stack trace:
+#0 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\Driver\AnnotationDriver.php(94): Doctrine\ORM\Mapping\MappingException::classIsNotAValidEntityOrMappedSuperClass('src\\Entity\\Item')
+#1 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php(154): Doctrine\ORM\Mapping\Driver\AnnotationDriver->loadMetadataForClass('src\\Entity\\Item', Object(Doctrine\ORM\Mapping\ClassMetadata))
+#2 C:\wh\katas\kata\doctrine\vendor\doctrine\persistence\lib\Doctrine\Persistence\Mapping\AbstractClassMetadataFactory.php(304): Doctrine\ORM\Mapping\ClassMetadataFactory->doLoadMetadata(Object(Doctrine\ORM\Mapping\ClassMetadata), NULL, false, Array)
+#3 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php( in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php on line 346
+[17-Jul-2020 03:47:19 America/Los_Angeles] PHP Fatal error:  Uncaught Doctrine\ORM\Mapping\MappingException: Class "src\Entity\Item" is not a valid entity or mapped super class. in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php:346
+Stack trace:
+#0 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\Driver\AnnotationDriver.php(94): Doctrine\ORM\Mapping\MappingException::classIsNotAValidEntityOrMappedSuperClass('src\\Entity\\Item')
+#1 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php(154): Doctrine\ORM\Mapping\Driver\AnnotationDriver->loadMetadataForClass('src\\Entity\\Item', Object(Doctrine\ORM\Mapping\ClassMetadata))
+#2 C:\wh\katas\kata\doctrine\vendor\doctrine\persistence\lib\Doctrine\Persistence\Mapping\AbstractClassMetadataFactory.php(304): Doctrine\ORM\Mapping\ClassMetadataFactory->doLoadMetadata(Object(Doctrine\ORM\Mapping\ClassMetadata), NULL, false, Array)
+#3 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php( in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php on line 346
+[17-Jul-2020 03:48:50 America/Los_Angeles] PHP Fatal error:  Uncaught Doctrine\ORM\Mapping\MappingException: Class "src\Entity\Item" is not a valid entity or mapped super class. in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php:346
+Stack trace:
+#0 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\Driver\AnnotationDriver.php(94): Doctrine\ORM\Mapping\MappingException::classIsNotAValidEntityOrMappedSuperClass('src\\Entity\\Item')
+#1 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php(154): Doctrine\ORM\Mapping\Driver\AnnotationDriver->loadMetadataForClass('src\\Entity\\Item', Object(Doctrine\ORM\Mapping\ClassMetadata))
+#2 C:\wh\katas\kata\doctrine\vendor\doctrine\persistence\lib\Doctrine\Persistence\Mapping\AbstractClassMetadataFactory.php(304): Doctrine\ORM\Mapping\ClassMetadataFactory->doLoadMetadata(Object(Doctrine\ORM\Mapping\ClassMetadata), NULL, false, Array)
+#3 C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\ClassMetadataFactory.php( in C:\wh\katas\kata\doctrine\vendor\doctrine\orm\lib\Doctrine\ORM\Mapping\MappingException.php on line 346
