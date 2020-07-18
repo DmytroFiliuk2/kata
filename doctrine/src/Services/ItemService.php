@@ -3,6 +3,8 @@
 namespace src\Services;
 
 use Doctrine\ORM\EntityManager;
+use Doctrine\ORM\OptimisticLockException;
+use Doctrine\ORM\ORMException;
 use src\Entity;
 
 class ItemService
@@ -25,8 +27,8 @@ class ItemService
      *
      * @return Entity\Item
      *
-     * @throws \Doctrine\ORM\ORMException
-     * @throws \Doctrine\ORM\OptimisticLockException
+     * @throws ORMException
+     * @throws OptimisticLockException
      */
     public function itemCreate(object $array){
 

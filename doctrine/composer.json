@@ -4,12 +4,13 @@
   "require": {
     "php": "^7.3",
     "ext-json": "*",
-    "doctrine/orm": "*"
+    "doctrine/orm": "*",
+    "fzaninotto/faker": "^1.9"
   },
 
   "autoload": {
     "psr-4": {
-      "": "./src"
+      "": "./"
     }
   }
 }
