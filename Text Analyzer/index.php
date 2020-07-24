@@ -1,18 +1,19 @@
 <html>
 <body>
 <?php
-require_once 'vendor/autoload.php';
-echo phpinfo();
-use src\Kernel;
-use src\Analyser\TextAnalyser;
-
-$kernel = new Kernel(new TextAnalyser());
-
+require_once 'bootstrap.php';
 ?>
 <div>
     <form action="/index.php" id="demo" method="post">
-        <textarea rows="4" cols="50" name="comment"></textarea>
+        <textarea rows="4" cols="50" name="text"></textarea>
         <input type="submit" value="Submit">
     </form>
 </div>
-<?php  $_POST ? $kernel->handleRequest($_POST) : null ?>
+<?php
+
+if ($_POST && array_key_exists('text', $_POST['text'])) {
+    $analyser = new \src\TextAnalyser();
+    echo json_encode($analyser->analise($_POST['text']), JSON_THROW_ON_ERROR);
+}
+
+?>
