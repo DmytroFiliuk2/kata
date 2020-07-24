@@ -16,14 +16,13 @@ class TextAnalyserTest extends TestCase
 
     public function testAnalise()
     {
-
         $textAnalise = new TextAnalyser();
         $this->assertEquals(
             [
                 'Number of characters' => 1406,
                 'Number of words' => 514,
                 'Number of sentences' => 10,
-                'Frequency of characters' => array(
+                'Frequency of characters' => [
                     ' ' => 185,
                     'В' => 4,
                     'о' => 90,
@@ -80,8 +79,8 @@ class TextAnalyserTest extends TestCase
                     1 => 1,
                     4 => 1,
                     'Ч' => 1,
-                ),
-                'Distribution of characters as a percentage of total' => array(
+                ],
+                'Distribution of characters as a percentage of total' => [
                     'В' => '0.00',
                     'о' => '0.06',
                     'ч' => '0.01',
@@ -138,7 +137,7 @@ class TextAnalyserTest extends TestCase
                     1 => '0.00',
                     4 => '0.00',
                     'Ч' => '0.00'
-                ),
+                ],
                 'Average word length' => '6.51',
                 'The average number of words in a sentence' => '18.60',
                 'Top 10 most used words' => [
@@ -153,7 +152,7 @@ class TextAnalyserTest extends TestCase
                     'одеси' => 2,
                     'як' => 2
                 ],
-                'Top 10 longest words' => array(
+                'Top 10 longest words' => [
                     'найрізноманітнішими' => 19,
                     'яскраво-червоний' => 16,
                     'блакитно-синій' => 14,
@@ -164,7 +163,7 @@ class TextAnalyserTest extends TestCase
                     'організаторів' => 13,
                     'десятилітньої' => 13,
                     'вишиванкового' => 13
-                ),
+                ],
                 'Top 10 shortest words' => [
                     'і' => 1,
                     'й' => 1,
