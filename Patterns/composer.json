@@ -1,0 +1,16 @@
+{
+  "version": "0.1",
+  "require": {
+    "ext-mbstring": "*",
+    "ext-json": "*",
+    "phpunit/phpunit": "8.1",
+    "ext-iconv": "*",
+    "ext-pdo": "*",
+    "ext-mysqli": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "./"
+    }
+  }
+}
