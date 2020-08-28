@@ -25,9 +25,9 @@ class ReportsVisitor implements VisitorInterface
     }
 
     /**
-     * @return array
+     * @return float
      */
-    public function avarageSallaryReport(): int
+    public function averageSalaryReport(): float
     {
         return $this->totalSallary / $this->totalNumberOfEmployees;
     }

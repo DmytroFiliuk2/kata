@@ -7,38 +7,39 @@ use PHPUnit\Framework\TestCase;
 
 class ReportsVisitorTest extends TestCase
 {
-    public function testNumberOfEmployeePerDepartmentReport()
+    public function testNumberOfEmployeePerDepartmentReport(): void
     {
         $employee = new Employee('dimas', 322, 'it');
         $employee2 = new Employee('dimas', 322, 'sell');
         $employee3 = new Employee('dimas', 322, 'marketing');
 
         $company = new CompanyVisitee(array($employee, $employee2, $employee3), 'GaleraSoftware');
-        $r = new ReportsVisitor();
-        $company->accept($r);
+        $reportsVisitor = new ReportsVisitor();
+        $company->accept($reportsVisitor);
 
-       $this->assertEquals(
+        $this->assertEquals(
             array(
                 'marketing' => 1,
                 'sell' => 1,
                 'it' => 1
             ),
-           $r->numberOfEmployeePerDepartmentReport()
-       );
+            $reportsVisitor->numberOfEmployeePerDepartmentReport()
+        );
     }
 
-    public function testTotalSallaryReport(){
+    public function testTotalSalaryReport(): void
+    {
         $employee = new Employee('dimas', 1000, 'it');
         $employee2 = new Employee('dimas', 1000, 'sell');
         $employee3 = new Employee('dimas', 1000, 'marketing');
         $employee4 = new Employee('dimas', 1000, 'marketing');
 
         $company = new CompanyVisitee(array($employee, $employee2, $employee3 ,$employee4), 'GaleraSoftware');
-        $r = new ReportsVisitor();
-        $company->accept($r);
+        $reportsVisitor = new ReportsVisitor();
+        $company->accept($reportsVisitor);
 
-        $this->assertEquals(4000, $r->totalSallaryReport());
-        $this->assertEquals(1000, $r->avarageSallaryReport());
-        $this->assertEquals(4, $r->totalNumberOfEmployeesReport());
+        $this->assertEquals(4000, $reportsVisitor->totalSallaryReport());
+        $this->assertEquals(1000, $reportsVisitor->averageSalaryReport());
+        $this->assertEquals(4, $reportsVisitor->totalNumberOfEmployeesReport());
     }
 }
