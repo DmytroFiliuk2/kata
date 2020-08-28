@@ -14,7 +14,7 @@ class TextAnalyserTest extends TestCase
 
 Уже вдеся́те майорить Приморський бульвар синьо-жовтими барвами, і вже вкотре ми збираємось у самому серці Одеси, щоб помилуватися показом автентичного вбрання, написати диктант просто неба, концентруючи  нашу енергію й демонструючи всім як свою єдність, так і свою любов до рідного міста та своєї країни. піп ';
 
-    public function testAnalise()
+    public function testAnalise(): void
     {
         $textAnalise = new TextAnalyser();
         $this->assertEquals(
